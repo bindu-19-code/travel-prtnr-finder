@@ -1105,7 +1105,8 @@ button:active {
 }
 
 .login-box input[type="email"],
-.login-box input[type="password"] {
+.login-box input[type="password"],
+.login-box input[type="name"] {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
@@ -1658,3 +1659,4 @@ input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" 
   font-size: 0.9rem;
   transition: 0.3s;
 }
+

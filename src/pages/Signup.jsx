@@ -50,15 +50,14 @@ const SignUp = () => {
       <div className="login-box">
         <h2>Create Account</h2>
         <form onSubmit={handleSubmit}>
-        <input
-  type="text"
-  name="name"
-  placeholder="Full Name"
-  value={formData.name}
-  onChange={handleChange}
-  required
-/>
-
+          <input
+            type="name"
+            name="name"
+            placeholder="Full Name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
           <input
             type="email"
             name="email"
