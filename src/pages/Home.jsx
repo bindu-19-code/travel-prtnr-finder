@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail } from 'lucide-react';
 import '../App.css';
 
 const Home = () => {
@@ -75,12 +74,7 @@ const Home = () => {
       <section className="contact-section">
   <h2>Contact Us</h2>
   <p>Have questions or need support? Reach out to us anytime!</p>
-  
-  <div className="contact-icons">
-    <a href="mailto:support@travelpartnerfinder.com" target="_blank" rel="noopener noreferrer">
-      <Mail size={28} />
-    </a>
-  </div>
+  <Link>travelpartnerfinder@gmail.com</Link>
 </section>
     </div>
   );
