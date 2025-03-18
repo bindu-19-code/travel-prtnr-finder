@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight } from 'lucide-react'; // Import arrow icon
-import { Mail, Instagram, Twitter } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import '../App.css';
 
 const Home = () => {
@@ -80,12 +79,6 @@ const Home = () => {
   <div className="contact-icons">
     <a href="mailto:support@travelpartnerfinder.com" target="_blank" rel="noopener noreferrer">
       <Mail size={28} />
-    </a>
-    <a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer">
-      <Instagram size={28} />
-    </a>
-    <a href="https://twitter.com/yourpage" target="_blank" rel="noopener noreferrer">
-      <Twitter size={28} />
     </a>
   </div>
 </section>
