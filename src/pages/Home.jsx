@@ -8,7 +8,7 @@ const Home = () => {
       <section className="hero-section">
         {/* Video Background */}
         <video autoPlay muted loop className="background-video">
-          <source src="/videos/travel.mp4" type="video/mp4" />
+          <source src="./videos/travel.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -28,17 +28,17 @@ const Home = () => {
         {/* Features */}
         <div className="features-grid">
           <div className="feature-item">
-            <img src="/images/trusted-users.png" alt="Trusted Users" />
+            <img src="./images/trusted-users.png" alt="Trusted Users" />
             <h3>100+ Trusted Users</h3>
             <p>Join a verified community of experienced travelers.</p>
           </div>
           <div className="feature-item">
-            <img src="/images/verified-trips.png" alt="Verified Trips" />
+            <img src="./images/verified-trips.png" alt="Verified Trips" />
             <h3>200+ Verified Trips</h3>
             <p>Browse trips that are reviewed and verified for your safety.</p>
           </div>
           <div className="feature-item">
-            <img src="/images/support.png" alt="Support" />
+            <img src="./images/support.png" alt="Support" />
             <h3>24/7 Support</h3>
             <p>Get help anytime from our dedicated support team.</p>
           </div>
@@ -49,7 +49,7 @@ const Home = () => {
   <div className="nice-travel-content">
     {/* Left - Circular Image */}
     <div className="nice-travel-image">
-      <img src="/images/group-tour.png" alt="Group Tour" />
+      <img src="./images/group-tour.png" alt="Group Tour" />
     </div>
 
     {/* Right - Text Content */}

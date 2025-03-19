@@ -150,7 +150,7 @@ const Profile = () => {
   return (
     <div className="profile-page">
       <div className="profile-banner">
-        <img src="/images/bannerrr.jpg" alt="Banner" className="banner-image" />
+        <img src="./images/bannerrr.jpg" alt="Banner" className="banner-image" />
       </div>
 
       <div className="profile-container">
@@ -187,7 +187,7 @@ const Profile = () => {
 
         {/* Sidebar */}
         <div className="profile-sidebar">
-          <img src="/images/woman.png" alt="Profile" className="profile-pic" /><br /><br />
+          <img src="./images/woman.png" alt="Profile" className="profile-pic" /><br /><br />
           <h2>{profileData.name || "User Name"}</h2>
                 <br />
                 <p>{profileData.bio || "Travel Enthusiast"}</p>
@@ -232,11 +232,11 @@ const Profile = () => {
           {activeTab === 'Photos' && (
             <div className="photo-gallery">
               <div className="gallery-item">
-                <img src="/images/vizag.jpg" alt="Vizag" className="gallery-photo" />
+                <img src="./images/vizag.jpg" alt="Vizag" className="gallery-photo" />
                 <p>Vizag</p>
               </div>
               <div className="gallery-item">
-                <img src="/images/assam.jpg" alt="Assam" className="gallery-photo" />
+                <img src="./images/assam.jpg" alt="Assam" className="gallery-photo" />
                 <p>Assam</p>
               </div>
             </div>

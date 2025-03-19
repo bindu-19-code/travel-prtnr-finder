@@ -20,9 +20,9 @@ const ChatPage = () => {
   const [isEditing, setIsEditing] = useState(false);
 
   const members = [
-    { name: "John Doe", email: "john@example.com", img: "/images/alex.png" },
-    { name: "Alice Smith", email: "alice@example.com", img: "/images/bob.png" },
-    { name: "Bob Johnson", email: "bob@example.com", img: "/images/joy.png" },
+    { name: "John Doe", email: "john@example.com", img: "./images/alex.png" },
+    { name: "Alice Smith", email: "alice@example.com", img: "./images/bob.png" },
+    { name: "Bob Johnson", email: "bob@example.com", img: "./images/joy.png" },
   ];
 
   useEffect(() => {
@@ -53,7 +53,7 @@ const ChatPage = () => {
       {/* Sidebar */}
       <div className="chat-sidebar">
         <div className="profile-section">
-          <img src="/images/woman.png" alt="Profile" className="profilee-pic" />
+          <img src="./images/woman.png" alt="Profile" className="profilee-pic" />
           {isEditing ? (
             <>
               <input
@@ -115,7 +115,7 @@ const ChatPage = () => {
           <img
             src={
               members.find((m) => m.name === activeChat)?.img ||
-              "/images/alex.png"
+              "./images/alex.png"
             }
             alt="Profile"
             className="chat-header-pic"

@@ -253,7 +253,7 @@ button:active {
 .login-page {
   position: relative;
   min-height: 100vh;
-  background-image: url('/images/image2.jpeg');
+  background-image: url('./images/image2.jpeg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -734,7 +734,7 @@ button:active {
 
 /* Background only for form section */
 .form-section {
-  background-image: url("/images/trip-bg.jpg"); /* Replace with your form background image path */
+  background-image: url("./images/trip-bg.jpg"); /* Replace with your form background image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1067,7 +1067,7 @@ button:active {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('/images/login-bg.jpg'); /* Image from public folder */
+  background-image: url('./images/login-bg.jpg'); /* Image from public folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

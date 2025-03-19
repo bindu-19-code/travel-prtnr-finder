@@ -7,14 +7,14 @@ const FindPartners = () => {
   const [sentRequests, setSentRequests] = useState({});
 
   const [travelBuddies, setTravelBuddies] = useState([
-    { id: 1, name: "Alice", destination: "Goa", date: "2025-04-10", details: "Exploring beaches and nightlife of Goa.", image: "/images/alex.png" },
-    { id: 2, name: "Bob", destination: "Manali", date: "2025-05-15", details: "Adventure trip with trekking and paragliding.", image: "/images/bob.png" },
-    { id: 3, name: "Charlie", destination: "Maldives", date: "2025-06-01", details: "Relaxing vacation with water sports.", image: "/images/joy.png" },
-    { id: 4, name: "Bindu", destination: "Paris", date: "2025-09-19", details: "To visit the city of Love", image: "/images/bindu.png" },
-    { id: 5, name: "Mike", destination: "London", date: "2025-08-12", details: "Exploring iconic landmarks and vibrant streets.", image: "/images/joy.png" },
-    { id: 6, name: "Saara", destination: "Swizterland", date: "2025-11-25", details: "Swiss adventure exploring the Alps and scenic landscapes.", image: "/images/woman.png" },
-    { id: 7, name: "Adam", destination: "Europe", date: "2025-02-19", details: "Relaxing with the view of historic cities and breathtaking landscapes.", image: "/images/alex.png" },
-    { id: 8, name: "Ria", destination: "Singapore", date: "2025-12-13", details: "Exploring the Marina Bay skyline and vibrant city.", image: "/images/bob.png" },
+    { id: 1, name: "Alice", destination: "Goa", date: "2025-04-10", details: "Exploring beaches and nightlife of Goa.", image: "./images/alex.png" },
+    { id: 2, name: "Bob", destination: "Manali", date: "2025-05-15", details: "Adventure trip with trekking and paragliding.", image: "./images/bob.png" },
+    { id: 3, name: "Charlie", destination: "Maldives", date: "2025-06-01", details: "Relaxing vacation with water sports.", image: "./images/joy.png" },
+    { id: 4, name: "Bindu", destination: "Paris", date: "2025-09-19", details: "To visit the city of Love", image: "./images/bindu.png" },
+    { id: 5, name: "Mike", destination: "London", date: "2025-08-12", details: "Exploring iconic landmarks and vibrant streets.", image: "./images/joy.png" },
+    { id: 6, name: "Saara", destination: "Swizterland", date: "2025-11-25", details: "Swiss adventure exploring the Alps and scenic landscapes.", image: "./images/woman.png" },
+    { id: 7, name: "Adam", destination: "Europe", date: "2025-02-19", details: "Relaxing with the view of historic cities and breathtaking landscapes.", image: "./images/alex.png" },
+    { id: 8, name: "Ria", destination: "Singapore", date: "2025-12-13", details: "Exploring the Marina Bay skyline and vibrant city.", image: "./images/bob.png" },
   ]);
 
   const filteredBuddies = travelBuddies.filter(buddy =>
@@ -90,7 +90,7 @@ const FindPartners = () => {
       {/* Sliding images below search */}
       <div className="heroo-section">
   <div className="hero-image">
-    <img src="/images/travel1.jpg" alt="Travel 1" />
+    <img src="./images/travel1.jpg" alt="Travel 1" />
     <div className="hero-text">
       <h1>EXPLORE TURKEY</h1>
       <p>Discover the scenic charm of Bodrum, Turkey with fellow travelers.</p>
@@ -98,7 +98,7 @@ const FindPartners = () => {
   </div>
 
   <div className="hero-image">
-    <img src="/images/travel2.jpg" alt="Travel 2" />
+    <img src="./images/travel2.jpg" alt="Travel 2" />
     <div className="hero-text">
       <h1>TRAVEL TO ITALY</h1>
       <p>Wander through the timeless beauty of Venice’s iconic canals and historic charm.</p>
@@ -106,7 +106,7 @@ const FindPartners = () => {
   </div>
 
   <div className="hero-image">
-    <img src="/images/travel3.jpg" alt="Travel 3" />
+    <img src="./images/travel3.jpg" alt="Travel 3" />
     <div className="hero-text">
       <h1>CANADA GETAWAY</h1>
       <p>Immerse yourself in the pristine beauty of Banff’s turquoise lakes and majestic peaks.</p>

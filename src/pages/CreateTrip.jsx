@@ -7,29 +7,29 @@ const recommendations = [
     name: "Nadia Lee", 
     place: "Switzerland",
     description: "In Switzerland, enjoy skiing, hiking, sightseeing, cruising, and paragliding!", 
-    profilePic: "/images/bindu.png", 
-    mainImage: "/images/img5.jpg" 
+    profilePic: "./images/bindu.png", 
+    mainImage: "./images/img5.jpg" 
   },
   { 
     name: "Alex", 
     place: "Italy",
     description: "In Italy, indulge in delicious cuisine, explore ancient history, admire world-class art!", 
-    profilePic: "/images/alex.png", 
-    mainImage: "/images/travel5.jpg" 
+    profilePic: "./images/alex.png", 
+    mainImage: "./images/travel5.jpg" 
   },
   { 
     name: "Jayson Cabrillos", 
     place: "Ladakh",
     description: "Explore Ladakh with mountain biking, river rafting, stargazing, and trekking!", 
-    profilePic: "/images/bob.png", 
-    mainImage: "/images/img3.jpg" 
+    profilePic: "./images/bob.png", 
+    mainImage: "./images/img3.jpg" 
   },
   { 
     name: "Joy", 
     place: "London",
     description: "Discover London through iconic landmarks, river cruises, theater shows, and historic museums!", 
-    profilePic: "/images/joy.png", 
-    mainImage: "/images/travel4.jpg" 
+    profilePic: "./images/joy.png", 
+    mainImage: "./images/travel4.jpg" 
   },
 ];
 

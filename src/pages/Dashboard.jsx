@@ -157,15 +157,15 @@ const Dashboard = () => {
       {/* Right side - Continuous vertical image scroller */}
       <div className="dashboard-scroll-images">
         <div className="scrolling-images">
-          <img src="/images/img1.jpg" alt="Image 1" />
-          <img src="/images/img2.jpg" alt="Image 2" />
-          <img src="/images/img3.jpg" alt="Image 3" />
-          <img src="/images/img4.jpg" alt="Image 4" />
+          <img src="./images/img1.jpg" alt="Image 1" />
+          <img src="./images/img2.jpg" alt="Image 2" />
+          <img src="./images/img3.jpg" alt="Image 3" />
+          <img src="./images/img4.jpg" alt="Image 4" />
           {/* Repeat images for seamless loop */}
-          <img src="/images/img1.jpg" alt="Image 1" />
-          <img src="/images/img2.jpg" alt="Image 2" />
-          <img src="/images/img3.jpg" alt="Image 3" />
-          <img src="/images/img4.jpg" alt="Image 4" />
+          <img src="./images/img1.jpg" alt="Image 1" />
+          <img src="./images/img2.jpg" alt="Image 2" />
+          <img src="./images/img3.jpg" alt="Image 3" />
+          <img src="./images/img4.jpg" alt="Image 4" />
         </div>
       </div>
     </div>
